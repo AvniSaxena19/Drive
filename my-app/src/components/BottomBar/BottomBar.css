@@ -1,0 +1,29 @@
+.bottom-bar {
+    position: fixed; /* Sticks the bar to the bottom */
+    bottom: 0; /* Aligns it to the bottom of the viewport */
+    width: 100%; /* Makes it span the entire width of the screen */
+    background-color: #ff6f21;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    z-index: 1000; /* Ensures it stays above other elements */
+  }
+  
+  .bottom-bar p {
+    margin: 0;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ffe4b3;
+  }
+  
