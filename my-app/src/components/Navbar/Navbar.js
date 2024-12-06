@@ -1,8 +1,8 @@
 import React from "react";
 import "./Navbar.css"; 
 import avatarImage from "./image.png"; 
-import SearchBar from "../SearchBar/SearchBar";  
-import BottomBar from "../BottomBar/BottomBar";
+ 
+
 
 const Navbar = () => {
   return (
@@ -36,8 +36,8 @@ const Navbar = () => {
       </nav>
 
      
-      <SearchBar /> 
-      <BottomBar />
+     
+      
     </header>  
   );
 };

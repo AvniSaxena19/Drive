@@ -1,40 +1,38 @@
 .search-bar-container {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-  }
-  
-  .search-bar-inner {
-    display: flex;
-    align-items: center;
-    max-width: 900px;
-    width: 100%;
-    background-color: white;
-    padding: 10px;
-  }
-  
-  .search-input, .location-input {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-  }
-  
-  .search-input input, .location-input input {
-    padding: 8px;
-    border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
 
-  }
-  
-  .find-job-button {
-    background-color: orange;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .find-job-button:hover {
-    background-color: darkorange;
-  }
-  
+.search-bar-inner {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.search-input, .location-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.search-input input, .location-input input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.find-job-button {
+  padding: 10px 15px;
+  background-color: #ea740c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.find-job-button:hover {
+  background-color: #ea740c;
+}
